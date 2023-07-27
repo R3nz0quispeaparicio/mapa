@@ -35,7 +35,7 @@ def camino(grafo, inicio, final):
         calle = grafo[nodo_actual][nodo_siguiente][1]
         print(nodo_actual, " -> ", nodo_siguiente, " (por", calle, ")")
 
-    print("Distancia:", distancia)
+    print("Distancia:", distancia,"m")
 
 grafo = {
     'A': {'B': (82, 'Prol. Ferrocarril'), 'E': (70, 'Calle Junin')},
